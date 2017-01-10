@@ -1,0 +1,56 @@
+body {
+  color: #2d3c49;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 5em;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #7d97ad;
+  font-weight: bold;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+h4 {
+  font-weight: 300;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  color: #7d97ad;
+  background-color: #7d97ad;
+}
+
+img {
+  width: 100%;
+}
+
+img.logo {
+  max-height: 150px;
+  width: auto;
+}
+
+
+.title {
+  text-align: right;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+}
+.project {
+  text-align: center;
+}

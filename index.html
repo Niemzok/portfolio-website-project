@@ -12,7 +12,7 @@
     <div class="container">
       <div class="row header">
         <div class="col-md-6">
-            <img src="images_src/logo.png" alt="Udacity-logo" class="logo">
+            <img src="img/logo.png" alt="Udacity-logo" class="logo">
         </div>
         <div class="col-md-6 title">
           <h1>Jane Doette</h1>
@@ -22,7 +22,15 @@
       <hr>
       <div class="row main">
         <div class="col-md-12">
-          <img src="images_src/main.jpg" alt="Main-Feature-Img-tosetthemood Designed by Kirsty - Freepik.com">
+          <picture>
+            <source media="(min-width: 1000px)"
+                    srcset= "img/main-large_1x.jpg 1x, img/main-large_2x.jpg 2x">
+            <source media="(min-width: 500px)"
+                    srcset="img/main-medium_1x.jpg 1x, img/main-medium_2x.jpg 2x">
+            <img src="img/main-small_1x.jpg" alt="Main-Feature-Img-tosetthemood Designed by Kirsty - Freepik.com">
+
+          </picture>
+
         </div>
       </div>
       <div class="row">
@@ -32,21 +40,36 @@
       </div>
       <div class="projects row">
         <div class="project col-md-4">
-          <img src="images_src/appify.jpg" alt="Appify-image Designed by Jannoon028 - Freepik.com">
+          <picture>
+            <source media="(min-width: 500px)"
+                    srcset="img/appify-medium_1x.jpg 1x, img/appify-medium_2x.jpg 2x">
+            <img src="img/appify-small_1x.jpg" alt="Appify-image Designed by Jannoon028 - Freepik.com">
+
+          </picture>
           <h3>Appify</h3>
-          <p>github link</p>
+          <p>https://github.com/udacity/Appify</p>
 
         </div>
         <div class="project col-md-4">
-          <img src="images_src/sunflower.jpg" alt="Sungflower-image Designed by Ilovehz - Freepik.com">
+          <picture>
+            <source media="(min-width: 500px)"
+                    srcset="img/sunflower-medium_1x.jpg 1x, img/sunflower-medium_2x.jpg 2x">
+            <img src="img/sunflower-small_1x.jpg" alt="Sungflower-image Designed by Ilovehz - Freepik.com">
+
+          </picture>
           <h3>Sunflower</h3>
-          <p>github link</p>
+          <p>https://github.com/udacity/Sunflower</p>
 
         </div>
         <div class="project col-md-4">
-          <img src="images_src/bukeh.jpg" alt="Bokeh-image Designed by desEYEns - Freepik.com">
+          <picture>
+            <source media="(min-width: 500px)"
+                    srcset="img/bukeh-medium_1x.jpg 1x, img/bukeh-medium_2x.jpg 2x">
+            <img src="img/bukeh-small_1x.jpg" alt="SBokeh-image Designed by desEYEns - Freepik.com">
+
+          </picture>
           <h3>Bokeh</h3>
-          <p>github link</p>
+          <p>https://github.com/udacity/Bokeh</p>
 
         </div>
 
